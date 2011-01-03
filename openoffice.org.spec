@@ -26,6 +26,9 @@
 #
 #	$ grep SYSTEM ooo-build-ooe-m6/build/ooe-m6/config_office/config.log |grep NO
 #
+# TODO:
+#	- Add obsoletes for all libreoffice components so packages are exchangeable.
+#
 # MAYBE TODO:
 #	- drop requirement on nas-devel
 #	- 6 user/config/*.so? files shared between -i18n-en and -i18n-sl
@@ -420,6 +423,8 @@ Summary(pl.UTF-8):	Wiązania Pythona dla OpenOffice.org
 Group:		Libraries
 Requires:	%{name}-core = %{epoch}:%{version}-%{release}
 Requires:	python
+Obsoletes:	libreoffice-pyuno
+Provides:	pyuno
 
 %description pyuno
 Cool Python bindings for the OpenOffice.org UNO component model.
