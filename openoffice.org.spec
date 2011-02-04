@@ -1071,7 +1071,7 @@ Obsoletes:	openoffice-i18n-fa-kde
 This package provides resources containing menus and dialogs in
 Persian language.
 
-%description i18n-eu -l pl.UTF-8
+%description i18n-fa -l pl.UTF-8
 Ten pakiet dostarcza zasoby zawierające menu i okna dialogowe w języku
 perskim.
 
