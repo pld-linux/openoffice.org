@@ -151,7 +151,9 @@ Source51:	http://download.go-oo.org/SRC/biblio.tar.bz2
 Source52:	http://download.go-oo.org/SRC/extras-3.tar.bz2
 # Source52-md5:	36f323a55ee83e9dc968e1b92569b62a
 Source53:	%{name}-splash.bmp
+# Source53-md5:	0b3726fdf3d50290267d93238a35f204
 Source54:	%{name}-about.bmp
+# Source54-md5:	a16044cb7d5af5e15a25e0511fde8253
 # patches applied in prep section
 Patch0:		%{name}-PLD.patch
 Patch10:	%{name}-hotfix-gcc45.patch
